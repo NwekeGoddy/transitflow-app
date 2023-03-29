@@ -27,7 +27,7 @@ function SafeReliable() {
             />
           </div>
           <div className="flex flex-col pl-[25px] border-l-2 border-[#d8d8d8]">
-            <h5 className="text-headingcolor text-[25px] font-rubik">
+            <h5 className="text-headingcolor text-[25px] font-rubik leading-[28px] mb-[13px]">
               Sea Transport Services
             </h5>
             <p className="text-base font-krub font-medium">
@@ -46,7 +46,7 @@ function SafeReliable() {
             />
           </div>
           <div className="flex flex-col pl-[25px] border-l-2 border-[#d8d8d8]">
-            <h5 className="text-headingcolor text-[25px] font-rubik">
+            <h5 className="text-headingcolor text-[25px] font-rubik leading-[28px] mb-[13px]">
               Warehousing Services
             </h5>
             <p className="text-base font-krub font-medium whitespace-normal">
@@ -65,7 +65,7 @@ function SafeReliable() {
             />
           </div>
           <div className="flex flex-col pl-[25px] border-l-2 border-[#d8d8d8]">
-            <h5 className="text-headingcolor text-[25px] font-rubik">
+            <h5 className="text-headingcolor text-[25px] font-rubik leading-[28px] mb-[13px]">
               Air Flight Services
             </h5>
             <p className="text-base font-krub font-medium">
@@ -84,7 +84,7 @@ function SafeReliable() {
             />
           </div>
           <div className="flex flex-col pl-[25px] border-l-2 border-[#d8d8d8]">
-            <h5 className="text-headingcolor text-[25px] font-rubik">
+            <h5 className="text-headingcolor text-[25px] font-rubik leading-[28px] mb-[13px]">
               Local Shipping Services
             </h5>
             <p className="text-base font-krub font-medium">

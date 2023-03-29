@@ -2,6 +2,7 @@ import "../../App.css";
 import TopBar from "../../components/ui/TopBar";
 import Hero from "../../components/ui/Hero";
 import SafeReliable from "../../components/ui/SafeReliable";
+import WhyUs from "../../components/ui/WhyUs";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <TopBar />
       <Hero />
       <SafeReliable />
+      <WhyUs/>
     </>
   );
 }

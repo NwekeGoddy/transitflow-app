@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section className="">
       <div
-        className="bg-no-repeat bg-cover bg-center bg-fixed "
+        className="bg-no-repeat bg-cover bg-center "
         style={{ backgroundImage: `url(${HeroImage})` }}
       >
         <Header />
