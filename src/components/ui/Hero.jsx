@@ -2,6 +2,7 @@ import React from "react";
 import HeroImage from "../../assets/images/HeroImage.png";
 import Header from "./Header";
 import TextBorder from "./text/TextBorder";
+import YellowButton from "./button/YellowButton";
 
 function Hero() {
   return (
@@ -25,9 +26,7 @@ function Hero() {
           </p>
 
           <div className="mt-6">
-            <button className="text-[#23212A] text-base font-semibold coolBeans py-[19px] px-[50px] ">
-              Explore More
-            </button>
+            <YellowButton children={"Explore More"} />
           </div>
         </div>
       </div>

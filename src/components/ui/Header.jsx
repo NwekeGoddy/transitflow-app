@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Facebook from '../../assets/icons/socials/Facebook.png';
-import Twitter from '../../assets/icons/socials/Twitter.png';
-import Instagram from '../../assets/icons/socials/Instagram.png';
-import Linkdin from '../../assets/icons/socials/Linkdin.png';
+import Facebook from "../../assets/icons/socials/Facebook.png";
+import Twitter from "../../assets/icons/socials/Twitter.png";
+import Instagram from "../../assets/icons/socials/Instagram.png";
+import Linkdin from "../../assets/icons/socials/Linkdin.png";
 
 function Header() {
   return (
@@ -41,33 +41,35 @@ function Header() {
               </li>
             </div>
           </ul>
-
-     
         </div>
-       
-        
-        <div className="flex items-center" >
-               
-        <ul className="flex gap-6 mr-[50px] items-center">
+
+        <div className="flex items-center">
+          <ul className="flex gap-6 mr-[50px] items-center">
             <li>
-              <Link to="#"><img src={Instagram} alt="Instagram Icon" /> </Link>
+              <Link to="#">
+                <img src={Instagram} alt="Instagram Icon" />{" "}
+              </Link>
             </li>
             <li>
-              <Link to="#"><img src={Facebook} alt="Facebook Icon" /> </Link>
+              <Link to="#">
+                <img src={Facebook} alt="Facebook Icon" />{" "}
+              </Link>
             </li>
             <li>
-              <Link to="#"><img src={Twitter} alt="Twitter Icon" /> </Link>
+              <Link to="#">
+                <img src={Twitter} alt="Twitter Icon" />{" "}
+              </Link>
             </li>
             <li>
-              <Link to="#"><img src={Linkdin} alt="Linkdin Icon" /> </Link>
+              <Link to="#">
+                <img src={Linkdin} alt="Linkdin Icon" />{" "}
+              </Link>
             </li>
-           
           </ul>
 
-          <div className="bg-white" >
-          <p className="text-[#23212A] py-[31px] px-[52px] ">Request Quote</p>
+          <div className="bg-white">
+            <p className="text-[#23212A] py-[31px] px-[52px] ">Request Quote</p>
           </div>
-        
         </div>
       </section>
     </header>

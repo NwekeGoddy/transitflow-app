@@ -40,7 +40,7 @@
 
 .coolBeans{
   border: none;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   overflow: hidden;
   position: relative;
   text-decoration: none;
@@ -74,7 +74,7 @@ z-index: -1;
 }
 
 .coolBeans:hover{
-border: 2px solid transparent;
+border: 1px solid transparent;
 /* color: indigo; */
 /* transform: scale(1.05); */
 will-change: transform;
