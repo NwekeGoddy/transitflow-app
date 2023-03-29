@@ -7,7 +7,7 @@ import phoneIcon from "../../assets/icons/phoneIcon.png";
 function TopBar() {
   return (
     <section className="bg-primary2 py-[48px] w-full ">
-      <div className="max-w-6xl m-auto flex justify-between items-center">
+      <div className="max-w-6xl m-auto flex justify-between items-center text-sm">
         <div>
           <img src={transitflowLogo} alt="transitflow Logo" />
         </div>
