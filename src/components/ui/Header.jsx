@@ -7,30 +7,30 @@ import Linkdin from '../../assets/icons/socials/Linkdin.png';
 
 function Header() {
   return (
-    <header className="bg-red-600  w-full ">
+    <header className="bg-primary2 bg-opacity-25  w-full relative ">
       <section className="max-w-6xl m-auto flex justify-between items-center text-base font-semibold">
         <div className="">
           <ul className="text-white flex flex-row  ">
             <div className="relative">
-              <div className="h-1 w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
-              <li className="py-[30px] mx-[30px] border-b-2">
+              <div className="h-[2px] w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
+              <li className="py-[30px] mr-[30px] border-b-2">
                 <Link to="#">Home</Link>
               </li>
             </div>
             <div className="relative">
-              <div className="h-1 w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
+              <div className="h-[2px] w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
               <li className="py-[30px] mx-[30px] hover:border-b-2">
                 <Link to="#">About</Link>
               </li>
             </div>
             <div className="relative">
-              <div className="h-1 w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
+              <div className="h-[2px] w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
               <li className="py-[30px] mx-[30px] hover:border-b-2">
                 <Link to="#">Pages</Link>
               </li>
             </div>
             <div className="relative">
-              <div className="h-1 w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
+              <div className="h-[2px] w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
               <li className="py-[30px] mx-[30px] hover:border-b-2">
                 <Link to="#">Project</Link>
               </li>
@@ -48,7 +48,7 @@ function Header() {
         
         <div className="flex items-center" >
                
-        <ul className="flex gap-6 mr-[50px]">
+        <ul className="flex gap-6 mr-[50px] items-center">
             <li>
               <Link to="#"><img src={Instagram} alt="Instagram Icon" /> </Link>
             </li>

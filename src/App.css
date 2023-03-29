@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+.coolBeans{
+  border: none;
+  border: 2px solid transparent;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: .2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+
+.coolBeans::after{
+background-color: white;
+border-radius: 16rem;
+content: '';
+display: block;
+height: 200%;
+width: 100%;
+position: absolute;
+right: 0;
+top: 0;
+transform: translate(90%, 7%) rotate(10deg);
+transform-origin: top left;
+transition: .2s transform ease-out;
+will-change: transform;
+z-index: -1;
+}
+
+
+.coolBeans:hover::after{
+  transform: translate(40%, -10%);
+}
+
+.coolBeans:hover{
+border: 2px solid transparent;
+/* color: indigo; */
+/* transform: scale(1.05); */
+will-change: transform;
+}

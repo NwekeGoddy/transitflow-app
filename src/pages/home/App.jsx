@@ -1,12 +1,13 @@
 import "../../App.css";
 import TopBar from "../../components/ui/TopBar";
-import Header from "../../components/ui/Header";
+import Hero from "../../components/ui/Hero";
 
 function App() {
   return (
     <>
       <TopBar />
-      <Header />
+      <Hero/>
+
     </>
   );
 }
