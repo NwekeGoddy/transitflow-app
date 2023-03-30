@@ -8,6 +8,8 @@ import Testimonial from "../../components/ui/Testimonial";
 import WhyChoose from "../../components/ui/WhyChoose";
 import Transporters from "../../components/ui/Transporters";
 import Contact from "../../components/ui/Contact";
+import OurBlog from "../../components/ui/OurBlog";
+import Footer from "../../components/ui/Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <WhyChoose />
       <Transporters />
       <Contact />
+      <OurBlog />
+      <Footer />
     </>
   );
 }
