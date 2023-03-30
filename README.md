@@ -1,10 +1,26 @@
-# Pixel-Perfect Implementation of Home Page
+# Pixel-Perfect Implementation of TransitFlow WebPage
 
 This repository contains my implementation of the Home Page design provided in Figma. I have followed all the style guides provided to ensure a pixel-perfect implementation.
 
 ## Code Structure
 
-I have used HTML, CSS, and Tailwind CSS to implement the design. The code is structured as follows:
+I have used React, CSS, and Tailwind CSS to implement the design. The code is structured as follows:
+
+src/
+├── assets/
+│   ├── images/
+│   └── icons/
+├── components/
+│   ├── button/
+│   ├── text/
+│   └── ...
+├── pages/
+│   ├── app.js
+│   └── ...
+├── styles/
+│   ├── tailwind.css
+│   └── style.css
+└── index.html
 
 - `index.html`: The main HTML file that contains the structure of the page
 - `style.css`: The main CSS file that contains the styles for the page
