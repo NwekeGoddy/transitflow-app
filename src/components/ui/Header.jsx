@@ -4,6 +4,7 @@ import Facebook from "../../assets/icons/socials/Facebook.png";
 import Twitter from "../../assets/icons/socials/Twitter.png";
 import Instagram from "../../assets/icons/socials/Instagram.png";
 import Linkdin from "../../assets/icons/socials/Linkdin.png";
+import Arrowdown from "../../assets/icons/arrowdown.png";
 
 function Header() {
   return (
@@ -20,13 +21,13 @@ function Header() {
             <div className="relative">
               <div className="h-[2px] w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
               <li className="py-[30px] mx-[30px] hover:border-b-2">
-                <Link to="#">About</Link>
+                <Link to="#">About <img src="" alt="" /> </Link>
               </li>
             </div>
             <div className="relative">
               <div className="h-[2px] w-5 absolute top-10 -right-2 bg-white rotate-90 opacity-20"></div>
               <li className="py-[30px] mx-[30px] hover:border-b-2">
-                <Link to="#">Pages</Link>
+                <Link to="#" className="flex flex-row items-center gap-1">Pages <img src={Arrowdown} alt="" /> </Link>
               </li>
             </div>
             <div className="relative">

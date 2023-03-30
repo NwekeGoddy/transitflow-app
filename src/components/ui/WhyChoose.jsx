@@ -74,7 +74,7 @@ function WhyChoose() {
         </div>
       </section>
 
-      <div className="absolute top-32 left-32">
+      <div className="absolute top-32 2xl:left-36 xl:left-12 lg:left-0">
         <div className="relative">
           <img src={Airplane} alt="Airplane" className="h-[450px]" />
 
