@@ -5,6 +5,10 @@ function Footer() {
   return (
    <footer>
     <img src={FooterImage} alt="Footer Container" />
+
+    <div>
+      
+    </div>
    </footer>
   )
 }
