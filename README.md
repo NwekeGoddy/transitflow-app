@@ -6,25 +6,19 @@ This repository contains my implementation of the Home Page design provided in F
 
 I have used React, CSS, and Tailwind CSS to implement the design. The code is structured as follows:
 
-src/
-├── assets/
-│   ├── images/
-│   └── icons/
-├── components/
-│   ├── button/
-│   ├── text/
-│   └── ...
-├── pages/
-│   ├── app.js
-│   └── ...
-├── styles/
-│   ├── tailwind.css
-│   └── style.css
-└── index.html
+## Image
+![Code Structure Picture](./src/assets/images/codestructure.PNG)
 
-- `index.html`: The main HTML file that contains the structure of the page
-- `style.css`: The main CSS file that contains the styles for the page
-- `tailwind.css`: The Tailwind CSS file that contains utility classes for the page
+I have organized the code into the following subfolders:
+
+- `assets`: Contains subfolders for images and icons that will be used in the project.
+- `components`: Contains subfolders for different components that will be used throughout the project, such as buttons and text components.
+- `pages`: Contains subfolders for each page in the project, and the `app.js` file is the entry point for the app. 
+- `styles`: Contains subfolders for CSS files, including Tailwind CSS and custom styles.
+- `index.html`: The main HTML file for the project which is in the public folder.
+
+By structuring the code in this way, it will be easier to navigate and modify as the project grows.
+
 
 I have organized the code into sections that correspond to the different sections of the page, making it easy to navigate and modify.
 
