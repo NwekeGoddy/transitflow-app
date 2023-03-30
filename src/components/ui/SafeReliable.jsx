@@ -1,10 +1,10 @@
 import React from "react";
 import TextBorder from "./text/TextBorder";
 import Heading1 from "./text/Heading1";
-import flightIcon from "../../assets/icons/flight.png";
-import seaIcon from "../../assets/icons/sea.png";
-import shippingIcon from "../../assets/icons/shipping.png";
-import warehouseIcon from "../../assets/icons/warehouse.png";
+import flightIcon from "../../assets/icons/plain/flight.png";
+import seaIcon from "../../assets/icons/plain/sea.png";
+import shippingIcon from "../../assets/icons/plain/shipping.png";
+import warehouseIcon from "../../assets/icons/plain/warehouse.png";
 
 function SafeReliable() {
   return (

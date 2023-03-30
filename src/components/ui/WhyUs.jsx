@@ -4,8 +4,8 @@ import TextBorder from "./text/TextBorder";
 import Heading1 from "./text/Heading1";
 import AirplaneInage from "../../assets/images/AirplaneImage.png";
 import GirleImage from "../../assets/images/GirleImage.png";
-import optmizedIcon from "../../assets/icons/optimizedtravel.png";
-import deliveryIcon from "../../assets/icons/delivery.png";
+import optmizedIcon from "../../assets/icons/fill/optimizedtravel.png";
+import deliveryIcon from "../../assets/icons/fill/delivery.png";
 import Pattern from "../../assets/images/Pattern.png";
 
 function WhyUs() {
