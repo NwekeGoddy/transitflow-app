@@ -7,6 +7,7 @@ import Transport from "../../components/ui/Transport";
 import Testimonial from "../../components/ui/Testimonial";
 import WhyChoose from "../../components/ui/WhyChoose";
 import Transporters from "../../components/ui/Transporters";
+import Contact from "../../components/ui/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Testimonial />
       <WhyChoose />
       <Transporters />
+      <Contact />
     </>
   );
 }

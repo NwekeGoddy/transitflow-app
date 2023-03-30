@@ -2,7 +2,7 @@ import React from "react";
 import WhyUsImage from "../../assets/images/WhyUsImage.png";
 import TextBorder from "./text/TextBorder";
 import Heading1 from "./text/Heading1";
-import AirplaneInage from "../../assets/images/AirplaneImage.png";
+import AirplaneImage from "../../assets/images/AirplaneImage.png";
 import GirleImage from "../../assets/images/GirleImage.png";
 import optmizedIcon from "../../assets/icons/fill/optimizedtravel.png";
 import deliveryIcon from "../../assets/icons/fill/delivery.png";
@@ -54,7 +54,7 @@ function WhyUs() {
           </div>
 
           <div className="relative">
-            <img src={AirplaneInage} alt="" Airplane />
+            <img src={AirplaneImage} alt="Airplane"  />
             <div className="absolute p-[30px] top-1/2 -left-1/3 bg-white">
               <img src={GirleImage} alt="Girl on delivery" />
             </div>

@@ -1,11 +1,12 @@
 import React from "react";
 
-function TextBorder({ children, color }) {
+function TextBorder({ children, color, opacity }) {
   return (
     <div
       className={
         `mb-[10px] border-l-4 border-primary1 bg-opacity-50 w-fit ` +
-        (color ? `bg-${color}` : "bg-[#041C37]")
+        (color ? `bg-[#E8E8E8]` : "bg-[#041C37]")  +
+        (opacity ? ` bg-opacity-10` : "bg-opacity-50")
       }
     >
       <p
