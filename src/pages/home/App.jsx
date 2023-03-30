@@ -3,6 +3,7 @@ import TopBar from "../../components/ui/TopBar";
 import Hero from "../../components/ui/Hero";
 import SafeReliable from "../../components/ui/SafeReliable";
 import WhyUs from "../../components/ui/WhyUs";
+import Transport from "../../components/ui/Transport";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <TopBar />
       <Hero />
       <SafeReliable />
-      <WhyUs/>
+      <WhyUs />
+      <Transport />
     </>
   );
 }

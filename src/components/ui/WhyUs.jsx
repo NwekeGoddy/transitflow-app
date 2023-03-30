@@ -11,12 +11,12 @@ import Pattern from "../../assets/images/Pattern.png";
 function WhyUs() {
   return (
     <>
-      <section className="relative w-full mb-[450px]">
+      <section className="relative w-full mb-[500px]">
         <div className="whyusgradient ">
           <img
             src={WhyUsImage}
             alt="Why Us Containers"
-            className="bg-no-repeat bg-cover bg-center bg-fixed bg-gradient-to-r from-cyan-500 to-blue-500"
+            className="bg-no-repeat bg-cover bg-center bg-fixed "
           />
         </div>
 
