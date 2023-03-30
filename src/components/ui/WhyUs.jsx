@@ -27,7 +27,7 @@ function WhyUs() {
               children={"We provide full range global logistics solution"}
             />
 
-            <p className="font-medium mt-[12px]">
+            <p className="font-medium mt-[12px] mb-[15px]">
               Leverage agile frameworks to provide a robust synopsis for
               strategy foster collaborative thinking to further the overall
               value proposition.
