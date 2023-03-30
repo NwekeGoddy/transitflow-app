@@ -8,7 +8,7 @@ import BlueButton from "./button/BlueButton";
 
 function Transport() {
   return (
-    <section className="max-w-8xl mx-auto my-[97px] relative">
+    <section className="max-w-8xl mx-auto mt-[97px] mb-[183px] relative">
       <div>
         <h3 className="font-rubik text-[35px] font-bold text-headingcolor leading-[40px] text-center">
           Transporting Across The World
