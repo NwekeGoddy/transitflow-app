@@ -22,7 +22,7 @@ function Footer() {
               <img src={transitflowLogo} alt="transitflow Logo" />
             </div>
 
-            <ul className="py-[44px] text-[25px] font-rubik font-medium text-white flex flex-row gap-36 pl-[84px]">
+            <ul className="py-[44px] text-[25px] font-rubik font-medium text-white flex flex-row gap-36 pl-[80px]">
               <li className="w-[86px]">Pages</li>
               <li className="w-[86px]">Utility</li>
               <li>Subscribe</li>
