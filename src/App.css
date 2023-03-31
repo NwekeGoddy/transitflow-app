@@ -62,7 +62,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  transform: translate(90%, 7%) rotate(10deg);
+  transform: translate(85%, 3%) rotate(10deg);
   transform-origin: top left;
   transition: .2s transform ease-out;
   will-change: transform;
@@ -106,7 +106,7 @@
   position: absolute;
   right: 0;
   top: 0;
-  transform: translate(90%, 7%) rotate(10deg);
+  transform: translate(85%, 5%) rotate(10deg);
   transform-origin: top left;
   transition: .2s transform ease-out;
   will-change: transform;

@@ -1,19 +1,24 @@
 import React from "react";
-import TextBorder from "./text/TextBorder";
 import timeIcon from "../../assets/icons/timeIcon.png";
 import emailIcon from "../../assets/icons/emailIcon.png";
 import phoneIcon from "../../assets/icons/phoneIcon.png";
 import YellowButton from "./button/YellowButton";
-import One from '../../assets/images/contact/1.png';
-import Two from '../../assets/images/contact/2.png';
-import Three from '../../assets/images/contact/3.png';
-import Four from '../../assets/images/contact/4.png';
+import One from "../../assets/images/contact/1.png";
+import Two from "../../assets/images/contact/2.png";
+import Three from "../../assets/images/contact/3.png";
+import Four from "../../assets/images/contact/4.png";
 
 function Contact() {
   return (
     <section className="bg-primary2">
       <div className="max-w-6xl mx-auto py-36">
-        <TextBorder children={"Contact"} opacity={10} />
+        <div
+          className={`mb-[10px] border-l-4 border-primary1 bg-[#e8e8e8] bg-opacity-10 w-fit `}
+        >
+          <p className={`font-rubik text-sm px-[9px] py-[3] text-white`}>
+            Contact
+          </p>
+        </div>
 
         <div className="flex flex-row gap-20">
           <div className="w-1/3">
@@ -82,20 +87,18 @@ function Contact() {
                 id=""
                 placeholder="Your Message"
                 rows="4"
-                className="col-span-2 border border-[#4E5683] py-[21px] px-[30px] bg-primary2 text-white text-xl outline-none"
+                className="col-span-2 border border-[#4E5683] py-[21px] px-[30px] bg-primary2 text-white text-xl outline-none mb-7"
               ></textarea>
-              input
             </form>
             <YellowButton children={"Submit Message"} />
           </div>
         </div>
 
-
-        <div className="mt-[70px] flex ">
-            <img src={One} alt="Studio Green" />
-            <img src={Two} alt="Norto" />
-            <img src={Three} alt="Points One" />
-            <img src={Four} alt= "Out of the sand box" />
+        <div className="mt-[70px] flex">
+          <img src={One} alt="Studio Green"className="w-1/4" />
+          <img src={Two} alt="Norto" className="w-1/4"/>
+          <img src={Three} alt="Points One" className="w-1/4"/>
+          <img src={Four} alt="Out of the sand box" className="w-1/4"/>
         </div>
       </div>
     </section>

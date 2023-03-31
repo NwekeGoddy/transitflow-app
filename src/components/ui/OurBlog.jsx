@@ -66,7 +66,7 @@ function OurBlog() {
               className="mb-[3px] w-[52px]"
             />
             <h4 className="leading-10 text-[40px] font-headingcolor font-rubik font-semibold">
-              08
+              12
             </h4>
             <p className="font-base text-Paracolor font-medium ">September</p>
           </div>
