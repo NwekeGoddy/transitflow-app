@@ -6,7 +6,6 @@ This repository contains my implementation of the Home Page design provided in F
 
 I have used React, CSS, and Tailwind CSS to implement the design. The code is structured as follows:
 
-## Image
 ![Code Structure Picture](./src/assets/images/codestructure.PNG)
 
 I have organized the code into the following subfolders:
